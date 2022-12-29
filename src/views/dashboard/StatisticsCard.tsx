@@ -30,14 +30,14 @@ interface DataType {
 
 const salesData: DataType[] = [
   {
-    stats: '245k',
-    title: 'Sales',
+    stats: '13',
+    title: 'Sessions',
     color: 'primary',
-    icon: <TrendingUp sx={{ fontSize: '1.75rem' }} />
+    icon: <AccountOutline sx={{ fontSize: '1.75rem' }} />
   },
   {
-    stats: '12.5k',
-    title: 'Customers',
+    stats: '11',
+    title: 'Active MPs',
     color: 'success',
     icon: <AccountOutline sx={{ fontSize: '1.75rem' }} />
   },
@@ -91,14 +91,7 @@ const StatisticsCard = () => {
             <DotsVertical />
           </IconButton>
         }
-        subheader={
-          <Typography variant='body2'>
-            <Box component='span' sx={{ fontWeight: 600, color: 'text.primary' }}>
-              Total 48.5% growth
-            </Box>{' '}
-            😎 this month
-          </Typography>
-        }
+
         titleTypographyProps={{
           sx: {
             mb: 2.5,
