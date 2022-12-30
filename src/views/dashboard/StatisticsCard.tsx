@@ -41,18 +41,7 @@ const salesData: DataType[] = [
     color: 'success',
     icon: <AccountOutline sx={{ fontSize: '1.75rem' }} />
   },
-  {
-    stats: '1.54k',
-    color: 'warning',
-    title: 'Products',
-    icon: <CellphoneLink sx={{ fontSize: '1.75rem' }} />
-  },
-  {
-    stats: '$88k',
-    color: 'info',
-    title: 'Revenue',
-    icon: <CurrencyUsd sx={{ fontSize: '1.75rem' }} />
-  }
+
 ]
 
 const renderStats = () => {
